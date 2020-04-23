@@ -27,7 +27,8 @@ public class CalculosMatematicos {
 	public static int factorial (int numero ) {
 		
 		if (numero==0)
-			return 0;
+			return 1;
+		System.out.println("numero");
 		else
 			return numero * factorial(numero-1);	
 	}
